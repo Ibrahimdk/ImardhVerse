@@ -50,19 +50,19 @@
     </header> -->
 
     <header class="fixed w-full z-50" >
-        <div class="py-8 px-12 bg-transparent 2xl:px-64 md:px-40 lg:px-32 " >
-            <div class="bg-white shadow-lg py-3 px-4 rounded-2xl flex justify-between items-center">
+        <div class="py-8 px-7 bg-transparent 2xl:px-64 md:px-40 lg:px-32 " >
+            <div class="bg-white shadow-lg py-3 px-4 rounded-3xl flex justify-between items-center">
                 <h1  class="font-goldman text-xl" >
                     <a href="#home">IMARDH.</a></h1>
                 <nav cla >
-                    <ul class="font-dokdo text-2xl flex " >
-                        <li class="hover:bg-neon px-3  hover:text-darkgrey rounded-xl ">
+                    <ul class="font-dokdo text-2xl flex  " >
+                        <li class="hover:bg-neon px-3 transition duration-500 ease-in-out hover:text-darkgrey rounded-xl ">
                             <a href="#project">Project</a>
                         </li>
-                        <li class="hover:bg-neon px-3  hover:text-darkgrey rounded-xl ">
+                        <li class="hover:bg-neon px-3 transition duration-500 ease-in-out hidden md:block hover:text-darkgrey rounded-xl ">
                             <a href="#contact">Contact</a>
                         </li>
-                        <li class="hover:bg-neon px-3 hidden md:block hover:text-darkgrey rounded-xl ">
+                        <li class="hover:bg-neon px-3 transition duration-500 ease-in-out hidden md:block hover:text-darkgrey rounded-xl ">
                             <a href="#thisFAQ">Faq</a>
                         </li>
                     </ul>
@@ -73,13 +73,13 @@
     </header>
 
    <section id="home" class= "bg-blacky ">
-    <div class=" px-8 2xl:px-44 md:px-36 lg:px-8 pb-64 pt-44 ">
+    <div class=" px-7 2xl:px-44 md:px-36 lg:px-8 pb-64 pt-44 ">
         <div class=" flex flex-wrap ">
-            <div class="w-full self-center px-5 lg:px-20 lg:w-1/2 " >
-                <h1 class=" leading-snug font-goldman text-5xl lg:text-6xl 2xl:text-7xl text-white ">IMARDH'S 
+            <div class="w-full self-center  lg:px-20 lg:w-1/2 " >
+                <h1 class=" leading-tight font-goldman text-5xl lg:text-6xl 2xl:text-7xl text-white ">IMARDH'S 
                     <span class="block 2xl:text-7xl  px-3  -rotate-3 bg-neon  text-blacky max-w-[220px] lg:max-w-[260px] 2xl:max-w-[320px]">VERSE</span> 
                     PORTFOLIO</h1>
-                <p class="text-grey font-dokdo mb-5 text-xl  2xl:text-2xl mt-3">
+                <p class="text-white font-dokdo mb-5 text-xl  2xl:text-2xl mt-3 leading-6">
                     Front-End Enthusiast | UI/UX | Mobile Development <span class="2xl:block">
                         | Web Development
                     </span>
@@ -243,8 +243,9 @@
     <div class="py-20   bg-blacky">
      <div class=" flex flex-col items-center  mx-auto">
         <h1 class="px-3 font-dokdo  bg-neon text-blacky rotate-6 text-2xl max-w-[60px] ">FAQ</h1>
-        <p class=" py-1   font-goldman text-2xl text-white">Frequently Ask Question</p>
+        <p class=" py-1   font-goldman text-2xl text-white"></p>
      </div>
+     <h1 class="py-5 px-8 2xl:px-56 md:px-36 lg:w-2/3 lg:mx-auto text-2xl font-goldman text-white text-center">Frequently Ask Question</h1>
        
     <div class=" py-14 px-8 2xl:px-56 md:px-36 lg:w-2/3 lg:mx-auto">
         <div  class=" relative " >
@@ -300,10 +301,10 @@
     </div>
    </section>
    <!-- FAQ Section END -->
-   <section class="bg-blacky" >
-    <h1 class="py-5 px-8 2xl:px-56 md:px-36 lg:w-2/3 lg:mx-auto text-2xl font-goldman text-white text-center">Scrolll and Chill w this Music🎹🎧</h1>
-    <iframe class="py-5 px-8 2xl:px-56 md:px-36 lg:w-2/3 lg:mx-auto" style="border-radius:12px" src="https://open.spotify.com/embed/track/0o9zmvc5f3EFApU52PPIyW?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-   </section>
+   <section id="spotify" class="bg-blacky" >
+        <h1 class="py-5 px-8 2xl:px-56 md:px-36 lg:w-2/3 lg:mx-auto text-2xl font-goldman text-white text-center">Scrolll and Chill w this Music🎹🎧</h1>
+        <iframe class="py-5 px-8 2xl:px-56 md:px-36 lg:w-2/3 lg:mx-auto" style="border-radius:12px" src="https://open.spotify.com/embed/track/0o9zmvc5f3EFApU52PPIyW?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </section>
    <!-- Spotify Section END -->
 
 
@@ -312,25 +313,24 @@
         <div class="relative bg-darkgrey rounded-3xl mb-20  ">
             <svg class="absolute -top-16 -left-16 z-[-1]" width="150" height="150" fill="#C8FF53" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M19.965 8.521C19.988 8.347 20 8.173 20 8c0-2.379-2.143-4.288-4.521-3.965C14.786 2.802 13.466 2 12 2s-2.786.802-3.479 2.035C6.138 3.712 4 5.621 4 8c0 .173.012.347.035.521C2.802 9.215 2 10.535 2 12s.802 2.785 2.035 3.479A3.976 3.976 0 0 0 4 16c0 2.379 2.138 4.283 4.521 3.965C9.214 21.198 10.534 22 12 22s2.786-.802 3.479-2.035C17.857 20.283 20 18.379 20 16c0-.173-.012-.347-.035-.521C21.198 14.785 22 13.465 22 12s-.802-2.785-2.035-3.479z"></path></g></svg>
             <svg class="absolute -bottom-16 -right-16 z-[-1]" width="150" height="150" fill="#C8FF53" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M19.965 8.521C19.988 8.347 20 8.173 20 8c0-2.379-2.143-4.288-4.521-3.965C14.786 2.802 13.466 2 12 2s-2.786.802-3.479 2.035C6.138 3.712 4 5.621 4 8c0 .173.012.347.035.521C2.802 9.215 2 10.535 2 12s.802 2.785 2.035 3.479A3.976 3.976 0 0 0 4 16c0 2.379 2.138 4.283 4.521 3.965C9.214 21.198 10.534 22 12 22s2.786-.802 3.479-2.035C17.857 20.283 20 18.379 20 16c0-.173-.012-.347-.035-.521C21.198 14.785 22 13.465 22 12s-.802-2.785-2.035-3.479z"></path></g></svg>
-
                 <div class="flex flex-col items-center mx-auto py-10" >
                         <h1 class="bg-neon rounded-3xl font-goldman text-xl text-darkgrey px-4 py-3" >Contact Me</h1>
-                        <p class="mt-4 px-10 font-dokdo text-xl text-grey" >Let's Collaborate!</p>
+                        <p class="mt-4 px-10 font-dokdo text-xl text-white" >Let's Collaborate!</p>
                 </div>              
                 <form  >
                     <div class="w-full px-8 pb-8">
                         <div class="py-4" >
-                            <label for="name" class="font-dokdo text-grey text-2xl ">N a m e </label>
+                            <label for="name" class="font-dokdo text-white text-2xl ">N a m e </label>
                             <input type="text" name="" id="name" class="w-full p-2 bg-softgrey text-base font-normal text-white rounded-xl focus:outline-none focus:ring-neon focus:ring-2  focus:border-neon">
                         </div>
 
                         <div class="py-4" >
-                            <label for="email" class="font-dokdo text-grey text-2xl ">E m a i l</label>
+                            <label for="email" class="font-dokdo text-white text-2xl ">E m a i l</label>
                             <input type="email" name="" id="email" class="w-full p-2 bg-softgrey text-base font-normal text-white rounded-xl focus:outline-none focus:ring-neon focus:ring-2  focus:border-neon">
                         </div>
                         
                         <div class="py-4">
-                            <label for="text" class="font-dokdo text-grey  text-2xl ">M e s s a g e</label>
+                            <label for="text" class="font-dokdo text-white  text-2xl ">M e s s a g e</label>
                             <textarea type="text" name="text" id="text" class="w-full p-3 bg-softgrey text-base font-normal text-white rounded-xl focus:outline-none focus:ring-neon focus:ring-2 focus:border-neon"></textarea>
                         </div>
                         <button class="px-4 py-2 bg-neon text-xl rounded-3xl font-dokdo hover:bg-softgrey hover:text-white transition duration-300" >

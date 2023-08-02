@@ -807,7 +807,7 @@ video {
 }
 
 .animate-slide {
-  animation: slide 5s infinite linear;
+  animation: slide 15s infinite linear;
 }
 
 @keyframes slidereverse {
@@ -821,7 +821,7 @@ video {
 }
 
 .animate-slidereverse {
-  animation: slidereverse 5s infinite linear;
+  animation: slidereverse 15s infinite linear;
 }
 
 .cursor-pointer {
@@ -939,11 +939,6 @@ video {
   padding-right: 2.5rem;
 }
 
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -959,9 +954,9 @@ video {
   padding-right: 1rem;
 }
 
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 
 .px-8 {
@@ -1089,8 +1084,12 @@ video {
   font-weight: 400;
 }
 
-.leading-snug {
-  line-height: 1.375;
+.leading-6 {
+  line-height: 1.5rem;
+}
+
+.leading-tight {
+  line-height: 1.25;
 }
 
 .text-blacky {
@@ -1111,11 +1110,6 @@ video {
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
-}
-
-.text-grey {
-  --tw-text-opacity: 1;
-  color: rgb(206 206 206 / var(--tw-text-opacity));
 }
 
 .text-neon {
@@ -1148,6 +1142,10 @@ video {
 
 .duration-300 {
   transition-duration: 300ms;
+}
+
+.duration-500 {
+  transition-duration: 500ms;
 }
 
 .ease-in-out {
@@ -1199,7 +1197,7 @@ video {
 }
 
 .peer:checked ~ .faq-answer {
-  max-height: 8rem;
+  max-height: 10rem;
   --tw-text-opacity: 1;
 }
 
