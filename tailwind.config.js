@@ -35,8 +35,8 @@ module.exports = {
         } ,
     },
     animation: {
-      slide : 'slide 20s infinite linear ',
-      slidereverse : 'slidereverse 20s infinite linear ',
+      slide : 'slide 25s infinite linear ',
+      slidereverse : 'slidereverse 25s infinite linear ',
     },
   },
   plugins: [],
