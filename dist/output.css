@@ -1188,11 +1188,8 @@ video {
   display: flex;
   justify-content: space-between;
   border-radius: 0.75rem;
-  border-width: 2px;
-  --tw-border-opacity: 1;
-  border-color: rgb(220 252 231 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
@@ -1201,7 +1198,7 @@ video {
   font-size: 1.5rem;
   line-height: 2rem;
   --tw-text-opacity: 1;
-  color: rgb(220 252 231 / var(--tw-text-opacity));
+  color: rgb(39 39 39 / var(--tw-text-opacity));
 }
 
 @media (min-width: 1024px) {
@@ -1231,7 +1228,7 @@ video {
 }
 
 .peer:checked ~ .faq-answer {
-  max-height: 14rem;
+  max-height: 24rem;
   --tw-text-opacity: 1;
 }
 
